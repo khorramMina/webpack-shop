@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    button{
+        color: red;
+        &:hover{
+            color: green;
+        }
+    }
+}

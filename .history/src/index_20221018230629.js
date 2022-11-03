@@ -1,0 +1,3 @@
+import './'
+const rootElement = document.getElementById('root');
+rootElement.className = 'bg-red'
